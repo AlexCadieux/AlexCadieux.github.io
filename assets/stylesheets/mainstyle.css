@@ -16,7 +16,7 @@ body {
   background-color: #48494c;
   color: #e0e0e0;
   font: 400 16px/22px "Lobster", "Nunito", "Pacifico", Helvetica, Arial, sans-serif;
-  margin: 10px 0;
+  padding: 1.5em 8em;
 }
 
 .bigLine {
@@ -207,7 +207,7 @@ Portfolio
 }
 
 .portfolio h3 {
-  color: #575858;
+  color: #56847a;
 }
 
 
@@ -223,7 +223,7 @@ Tools
 
 .tools i {
   font-size: 70px;
-  color:#575858;
+  color: #56847a;
 }
 
 /*
