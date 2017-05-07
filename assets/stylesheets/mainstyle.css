@@ -96,6 +96,7 @@ header
 */
 
 .crop {
+  margin:0 auto;
   max-height: 125px;
   max-width: 125px;
   width: 100%;
@@ -110,6 +111,7 @@ header
 }
 
 .contact {
+  margin: auto;
   text-align: center;
 }
 
@@ -148,6 +150,10 @@ About me
 ----------------
 */
 
+.about-me {
+  margin: 1em;
+}
+
 .about-me > p {
   margin: 10px 0;
   text-align: justify;
@@ -167,12 +173,12 @@ Curriculum
 }
 
 .studies, .pro-xp {
-  padding: 0 15px;
+  padding: 0 1em;
 }
 
 .title-right {
   text-align: right;
-  padding-right: 15px;
+  padding-right: 1em;
 }
 
 .curriculum h3 {
@@ -197,6 +203,10 @@ Portfolio
 ----------------
 */
 
+.portfolio {
+  margin:1em;
+}
+
 .portfolio h3 {
   color: #575858;
 }
@@ -208,7 +218,25 @@ Tools
 ----------------
 */
 
+.tools {
+  margin:1em;
+}
+
 .tools i {
   font-size: 70px;
   color:#575858;
+}
+
+/*
+----------------
+Footer
+----------------
+*/
+
+.main-footer {
+  margin: 1em;
+}
+
+.main-footer ul {
+  margin-bottom: 0;
 }
