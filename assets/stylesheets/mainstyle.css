@@ -13,11 +13,10 @@
 }*/
 
 body {
-  background-color: white;
-  color: #023;
-  font: 400 16px/22px "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #48494c;
+  color: #e0e0e0;
+  font: 400 16px/22px "Lobster", "Nunito", "Pacifico", Helvetica, Arial, sans-serif;
   margin: 10px 0;
-  padding: 0;
 }
 
 .bigLine {
@@ -34,7 +33,7 @@ body {
 */
 
 h1, h2, h3, h4 {
-  color: #648880;
+  color: #ffffff;
 }
 h1, h3, h4, h5 {
   margin-bottom: 22px;
@@ -60,7 +59,7 @@ h5 {
   text-transform: uppercase;
 }
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 strong {
   font-weight: 700;
@@ -76,7 +75,7 @@ br {
 }
 
 a {
-  color:#189163;
+  color:#fffeaa;
   font-weight: 500;
   text-decoration: none;
 }
@@ -135,13 +134,13 @@ header
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #383737;
+  background-color: #56847a;
   color: #fff;
   margin: 10px 20px;
   height: 35px;
   width: 35px;
   font-size: 20px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 /*
@@ -176,10 +175,10 @@ Curriculum
   padding: 0 1em;
 }
 
-.title-right {
+/* .title-right {
   text-align: right;
   padding-right: 1em;
-}
+} */
 
 .curriculum h3 {
   margin-top: 5px;
