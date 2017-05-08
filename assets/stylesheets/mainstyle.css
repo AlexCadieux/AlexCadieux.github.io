@@ -203,7 +203,7 @@ Portfolio
   color: #56847a;
 }
 
-.portfolio ul {
+.portfolio> ul {
   justify-content:center;
 }
 
