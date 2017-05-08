@@ -167,7 +167,7 @@ Curriculum
 */
 
 .curriculum {
-  background-color: #e8f2f0;
+  background-color: #56847a;
   border-top: ridge thin #383737;
   border-bottom: ridge thin #383737;
   padding: 0 1em;
@@ -201,6 +201,10 @@ Portfolio
 
 .portfolio h3 {
   color: #56847a;
+}
+
+.portfolio ul {
+  justify-content:center;
 }
 
 
