@@ -145,6 +145,10 @@ header
   border-radius: 50%;
 }
 
+.contact li:first-child {
+  margin-left: 0;
+}
+
 /*
 ----------------
 About me
@@ -178,11 +182,15 @@ Curriculum
   color: #48494c;
 }
 
+.studies, .pro-xp {
+  text-align: center
+}
+
 .cv {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+/*   text-align: center; */
 }
 
 .cv > p {
@@ -217,6 +225,10 @@ Tools
 
 .tools {
   margin:1em;
+}
+
+.tools ul {
+  justify-content:center;
 }
 
 .tools i {
