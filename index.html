@@ -6,34 +6,48 @@
 		<title>Alex Personal Page</title>
 		<link rel="stylesheet" href="assets/grid.css">
 		<link rel="stylesheet" href="assets/stylesheets/mainstyle.css">
-		<link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Nunito|Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300|Roboto" rel="stylesheet">
 	</head>
 
 	<body>
 
 		<!-- Header -->
-
-		<header class="row main-header">
-			<div class="crop responsive-img col-sm-3">
-				<img src="assets/images/moi.jpg" alt="Profil picture">
-			</div>
-			<div class="contact col-sm-9">
-				<h1>Alexandre Cadieux</h1>
-				<ul>
-					<li>
-						<a href="https://github.com/AlexCadieux" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-					</li><!--
-					--><li>
-						<a href="https://www.linkedin.com/in/alexandre-cadieux-46226665/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-					</li><!--
-					--><li>
-						<a href="mailto:cadieux.alex@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-					</li>
-				</ul>
-			</div>
-		</header>
-
-		<div class="bigLine"></div>
+		<div class="background-image">
+			<header id="main-header" class="main-header">
+				<img class="profil-pic" src="assets/medias/Alexandre_Cadieux.png" alt="Profil picture">
+				<div class="navbar">
+					<div class="contact">
+						<h1>Alexandre Cadieux</h1>
+						<ul>
+							<a href="https://github.com/AlexCadieux" target="_blank">
+								<li>
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</li>
+							</a><!--
+							--><a href="https://www.linkedin.com/in/alexandre-cadieux-46226665/" target="_blank">
+								<li>
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</li>
+							</a><!--
+							--><a href="mailto:cadieux.alex@gmail.com" target="_blank">
+								<li>
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</li>
+							</a>
+						</ul>
+					</div>
+					<div class="title">
+						<span></span><h3>Web Developer</h3><span></span>
+					</div>
+					<div class="nav-button">
+						<button id="aboutMeSection">About Me</button>
+						<button id="cvSection">Curriculum</button>
+						<button id="portfolioSection">Portfolio</button>
+						<button id="toolsSection">My Toolbox</button>
+					</div>
+				</div>
+			</header>
+		</div>
 
 		<main class="main-section">
 			<section class="about-me">
@@ -84,7 +98,7 @@
 						</p>
 					</div>
 				</div>
-				<a class="cv" href="assets/images/CV_Mai2017.pdf" target="_blank">
+				<a class="cv" href="assets/medias/CV_Mai2017.pdf" target="_blank">
 					<p>Take a look at my CV</p>
 					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 				</a>
@@ -93,7 +107,21 @@
 			<section class="portfolio">
 
 				<h2>Portfolio</h2>
-				<ul class="project block-grid block-grid-sm-2 block-grid-md-4 text-center">
+				<ul class="project block-grid block-grid-sm-2 block-grid-md-5 text-center">
+					<li>
+						<h3>Dialogue-Scheduly</h3>
+						<video width="200" height="240" controls>
+						  <source src="assets/medias/french-fries.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+						</video>
+						<p></p>
+					</li>
+
+					<li>
+						<h3>Project Name</h3>
+						<img src="#" alt="project thumbnail">
+					</li>
+
 					<li>
 						<h3>Project Name</h3>
 						<img src="#" alt="project thumbnail">
@@ -110,8 +138,6 @@
 					</li>
 
 				</section>
-
-				<div class="bigLine"></div>
 
 				<section class="tools">
 					<h2 class="title-right">What's in my toolbox?</h2>
@@ -151,14 +177,9 @@
 
 		</main>
 
-		<div class="bigLine"></div>
-
-		<footer class="main-footer" class="row">
-
-			<section class="contact">
-
+		<footer class="main-footer contact">
+				<small>&copy; Alex Cadieux</small>
 				<ul>
-
 					<li>
 						<a href="https://github.com/AlexCadieux" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 					</li><!--
@@ -168,14 +189,15 @@
 					--><li>
 						<a href="mailto:cadieux.alex@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 					</li>
-
 				</ul>
-
-			</section>
-
-			<small>&copy; Alex Cadieux</small>
-
 		</footer>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+		<!-- Header menu JavaScript -->
+    <script src="assets/javascript/onScroll.js"></script>
+
 
 	</body>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
