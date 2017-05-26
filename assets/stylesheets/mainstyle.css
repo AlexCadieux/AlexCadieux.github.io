@@ -153,7 +153,7 @@ header
 }
 
 .main-header h1 {
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: 5px;
   line-height: 1em;
 }
@@ -313,6 +313,12 @@ Portfolio
   width: 300px;
   border:thin ridge #696969;
   margin: 5px;
+  overflow: hidden;
+}
+
+.project img {
+  height: 280px;
+  width: 280px;
 }
 
 
