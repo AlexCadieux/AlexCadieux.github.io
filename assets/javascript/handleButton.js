@@ -24,7 +24,7 @@ $(function(){});
   });
 
   $(window).scroll(function(){
-      if($(document).scrollTop() > $(".about-me").offset().top - 81 && $(document).scrollTop() < $(".curriculum").offset().top - 80)
+      if($(document).scrollTop() > $(".about-me").offset().top - 81 && $(document).scrollTop() < $(".curriculum").offset().top - 82)
       {
         $('#aboutMeSection').addClass('activated');
       }
@@ -33,7 +33,7 @@ $(function(){});
         $('#aboutMeSection').removeClass('activated')
       }
 
-      if($(document).scrollTop() > $(".curriculum").offset().top - 81 && $(document).scrollTop() < $(".portfolio").offset().top - 80)
+      if($(document).scrollTop() > $(".curriculum").offset().top - 81 && $(document).scrollTop() < $(".portfolio").offset().top - 82)
       {
         $('#cvSection').addClass('activated');
       }
@@ -42,7 +42,7 @@ $(function(){});
         $('#cvSection').removeClass('activated')
       }
 
-      if($(document).scrollTop() > $(".portfolio").offset().top - 81 && $(document).scrollTop() < $(".tools").offset().top - 150)
+      if($(document).scrollTop() > $(".portfolio").offset().top - 81 && $(document).scrollTop() < $(".tools").offset().top - 152)
       {
         $('#portfolioSection').addClass('activated');
       }
