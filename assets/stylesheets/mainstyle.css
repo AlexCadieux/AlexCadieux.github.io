@@ -301,6 +301,7 @@ Portfolio
 }
 
 .portfolio h3 {
+  margin-bottom: 10px;
   color: #48494c;
 }
 
@@ -317,8 +318,8 @@ Portfolio
 }
 
 .project img {
-  height: 280px;
-  width: 280px;
+  height: 225px;
+  width: 290px;
 }
 
 
