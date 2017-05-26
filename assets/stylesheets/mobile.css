@@ -1,0 +1,27 @@
+
+.title >h3 {
+  font-size: 30px
+}
+
+.profil-pic {
+  width: 65%;
+  height: 70%;
+  border-radius: 50%;
+  margin: auto
+}
+
+.contact > ul {
+  justify-content: space-around;
+}
+
+.nav-button > button {
+  height: 65px;
+  width: 150px;
+  margin: 30px;
+  font-size: x-large;
+}
+
+
+.schoolAndWork {    
+  flex-direction: column;
+}
