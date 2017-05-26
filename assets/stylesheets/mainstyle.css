@@ -153,7 +153,7 @@ header
 }
 
 .main-header h1 {
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: 5px;
   line-height: 1em;
 }
@@ -308,6 +308,13 @@ Portfolio
   justify-content:center;
 }
 
+.project li {
+  height: 300px;
+  width: 300px;
+  border:thin ridge #696969;
+  margin: 5px
+}
+
 
 /*
 ----------------
@@ -318,8 +325,8 @@ Tools
 .tools {
   padding:10px 50px;
   background-color: #CEF2E8;
-  border-top: ridge thin #696969;
-  border-bottom: ridge thin #696969;
+  border-top: thin ridge #696969;
+  border-bottom: thin ridge #696969;
   min-height: 450px;
 }
 
