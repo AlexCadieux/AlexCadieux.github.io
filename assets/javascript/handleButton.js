@@ -51,7 +51,7 @@ $(function(){});
         $('#portfolioSection').removeClass('activated')
       }
 
-      if($(document).scrollTop() > $(".tools").offset().top - 151 && $(document).scrollTop() < $(".main-footer").offset().top - 80)
+      if($(document).scrollTop() > $(".tools").offset().top - 150 && $(document).scrollTop() < $(".main-footer").offset().top - 80)
       {
         $('#toolsSection').addClass('activated');
       }
