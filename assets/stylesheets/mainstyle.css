@@ -312,7 +312,7 @@ Portfolio
 
 .project li {
   min-height: 320px;
-  width: 575px;
+  width: 520px;
   border:thin ridge #696969;
   margin: 5px;
   overflow: hidden;
